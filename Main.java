@@ -2,20 +2,20 @@
 public class Main {
         public static void main(String[] args) {
         	
-        	/*Soru 2: Nesneye Yönelik Programlama teknikleri kullanarak bir banka hesap bilgisi tanımlayınız. Bu hesap
-           kişi bilgileri ve bakiye (mevcut tutar) şeklinde iki bilgi barındırsın. Bu banka hesabına referans kodu
-           kullanarak para yatırılmaktadır. Bir banka bir hesap için birden fazla sayıda referans kodu tanımlayabilir.
-           Bu bankada her banka hesabı için maksimum 5 adet referans kodu tanımlansın ve bu bankada 3 farklı hesap
-           olsun. Bu hesapların her birine referans kodları kullanarak 50 TL ve 10TL değerinde para yatırılsın.
-           Bankadaki tüm hesaplardaki tutarları gösteren programı yazınız
+        	/*Nesneye YÃ¶nelik Programlama teknikleri kullanarak bir banka hesap bilgisi tanÄ±mlayÄ±nÄ±z. Bu hesap
+           kiÅŸi bilgileri ve bakiye (mevcut tutar) ÅŸeklinde iki bilgi barÄ±ndÄ±rsÄ±n. Bu banka hesabÄ±na referans kodu
+           kullanarak para yatÄ±rÄ±lmaktadÄ±r. Bir banka bir hesap iÃ§in birden fazla sayÄ±da referans kodu tanÄ±mlayabilir.
+           Bu bankada her banka hesabÄ± iÃ§in maksimum 5 adet referans kodu tanÄ±mlansÄ±n ve bu bankada 3 farklÄ± hesap
+           olsun. Bu hesaplarÄ±n her birine referans kodlarÄ± kullanarak 50 TL ve 10TL deÄŸerinde para yatÄ±rÄ±lsÄ±n.
+           Bankadaki tÃ¼m hesaplardaki tutarlarÄ± gÃ¶steren programÄ± yazÄ±nÄ±z
            
-           *Açıklama: Banka sınıfı içerisinde Hesap sınıfına ait dizi barındırmaktadır.
-           *Ayrıca Banka sınıfı içersinde her bir referans için bir dizi bulunmaktadır.
-           *Bu iki dizi birbirlerine indisler yolu ile bağlıdır.Örneğin 1. hesap nesnesi
-           *1. ve  2. referans değerleri ile birbirine bağlıdır. Bu bilgi bir matriste tutulmaktadır.
-           *Bu referans kodları, hesaplar ve matris aşağıdaki gibi tanımlanabilir. 
+           *AÃ§Ä±klama: Banka sÄ±nÄ±fÄ± iÃ§erisinde Hesap sÄ±nÄ±fÄ±na ait dizi barÄ±ndÄ±rmaktadÄ±r.
+           *AyrÄ±ca Banka sÄ±nÄ±fÄ± iÃ§ersinde her bir referans iÃ§in bir dizi bulunmaktadÄ±r.
+           *Bu iki dizi birbirlerine indisler yolu ile baÄŸlÄ±dÄ±r.Ã–rneÄŸin 1. hesap nesnesi
+           *1. ve  2. referans deÄŸerleri ile birbirine baÄŸlÄ±dÄ±r. Bu bilgi bir matriste tutulmaktadÄ±r.
+           *Bu referans kodlarÄ±, hesaplar ve matris aÅŸaÄŸÄ±daki gibi tanÄ±mlanabilir. 
            Boolean[][] matrix = new Boolean[2][5]; 
-           //1. Hesap kodu 1. ve 2. referans değerlerine sahiptir.  
+           //1. Hesap kodu 1. ve 2. referans deÄŸerlerine sahiptir.  
            matrix[0][0] = true;  matrix[0][1] = true; matrix[0][2] = false;  
            String[] referansKodlari = new String[5]; 
            Hesap[] hesaplar = new Hesap[3];
