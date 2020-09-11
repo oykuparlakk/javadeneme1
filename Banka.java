@@ -6,8 +6,8 @@ public class Banka {
 	 static int referansKodlari3[]= {3564,8796,9807,5677,3563};
 	
 	 
-	  static Hesap hesap1 = new Hesap(0,"öykü parlak", referansKodlari1);
-	  static Hesap hesap2 = new Hesap(500,"arzu durlanık", referansKodlari2);
+	  static Hesap hesap1 = new Hesap(0,"Ã¶ykÃ¼ parlak", referansKodlari1);
+	  static Hesap hesap2 = new Hesap(500,"arzu durlanik", referansKodlari2);
 	  static Hesap hesap3 = new Hesap(8000,"selin kumru", referansKodlari3);
 				
 	  static void HesapOlustur() {
@@ -16,7 +16,7 @@ public class Banka {
 
 		hesaplar[0] = hesap1;
 		hesaplar[1] = hesap2;
-		hesaplar[2] = hesap3;		System.out.println("hesaplar güncel..");
+		hesaplar[2] = hesap3;		System.out.println("hesaplar gÃ¼ncel..");
 		
 		}
 	
