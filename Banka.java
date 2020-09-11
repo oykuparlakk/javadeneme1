@@ -6,7 +6,7 @@ public class Banka {
 	 static int referansKodlari3[]= {3564,8796,9807,5677,3563};
 	
 	 
-	  static Hesap hesap1 = new Hesap(0,"öykü parlak", referansKodlari1);
+	  static Hesap hesap1 = new Hesap(0,"oyku parlak", referansKodlari1);
 	  static Hesap hesap2 = new Hesap(500,"arzu durlanik", referansKodlari2);
 	  static Hesap hesap3 = new Hesap(8000,"selin kumru", referansKodlari3);
 				
